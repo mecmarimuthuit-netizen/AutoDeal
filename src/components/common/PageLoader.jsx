@@ -21,7 +21,7 @@ const PageLoader = ({ label = "Loading page..." }) => {
           style={{ width: "1.25rem", height: "1.25rem", animationDelay: "0.4s" }}
         />
       </div>
-      <p className="text-muted fw-medium fs-6 m-0">{label}</p>
+      <p className="text-muted fw-medium fs-6 m-0 ">{label}</p>
     </div>
   );
 };
